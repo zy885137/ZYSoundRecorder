@@ -1,0 +1,14 @@
+//
+//  soundRecorder.pch
+//  soundRecorder
+//
+//  Created by 张杨 on 2019/8/14.
+//  Copyright © 2019年 张杨. All rights reserved.
+//
+
+#ifndef soundRecorder_pch
+#define soundRecorder_pch
+
+#import "CommonMacro.h"
+
+#endif /* soundRecorder_pch */

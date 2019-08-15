@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		412355622303E04F005D2E48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 412355612303E04F005D2E48 /* AppDelegate.m */; };
+		412355652303E04F005D2E48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412355642303E04F005D2E48 /* ViewController.m */; };
+		412355682303E04F005D2E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412355662303E04F005D2E48 /* Main.storyboard */; };
+		4123556A2303E050005D2E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412355692303E050005D2E48 /* Assets.xcassets */; };
+		4123556D2303E050005D2E48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4123556B2303E050005D2E48 /* LaunchScreen.storyboard */; };
+		412355702303E050005D2E48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4123556F2303E050005D2E48 /* main.m */; };
+		4123557E2303E4F1005D2E48 /* ZYRecordBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4123557D2303E4F1005D2E48 /* ZYRecordBoxView.m */; };
+		412355812303E715005D2E48 /* ZYRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 412355802303E715005D2E48 /* ZYRecordManager.m */; };
+		412355842303E75A005D2E48 /* ZYPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 412355832303E75A005D2E48 /* ZYPlayManager.m */; };
+		412355872303EF2F005D2E48 /* ZYFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 412355862303EF2F005D2E48 /* ZYFileTool.m */; };
+		4123558D23040B2E005D2E48 /* ZYVoiceHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 4123558C23040B2E005D2E48 /* ZYVoiceHud.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4123555D2303E04F005D2E48 /* soundRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soundRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		412355602303E04F005D2E48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		412355612303E04F005D2E48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		412355632303E04F005D2E48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		412355642303E04F005D2E48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		412355672303E04F005D2E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		412355692303E050005D2E48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4123556C2303E050005D2E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4123556E2303E050005D2E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4123556F2303E050005D2E48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4123557C2303E4F1005D2E48 /* ZYRecordBoxView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYRecordBoxView.h; sourceTree = "<group>"; };
+		4123557D2303E4F1005D2E48 /* ZYRecordBoxView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYRecordBoxView.m; sourceTree = "<group>"; };
+		4123557F2303E715005D2E48 /* ZYRecordManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYRecordManager.h; sourceTree = "<group>"; };
+		412355802303E715005D2E48 /* ZYRecordManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYRecordManager.m; sourceTree = "<group>"; };
+		412355822303E75A005D2E48 /* ZYPlayManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPlayManager.h; sourceTree = "<group>"; };
+		412355832303E75A005D2E48 /* ZYPlayManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPlayManager.m; sourceTree = "<group>"; };
+		412355852303EF2F005D2E48 /* ZYFileTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYFileTool.h; sourceTree = "<group>"; };
+		412355862303EF2F005D2E48 /* ZYFileTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYFileTool.m; sourceTree = "<group>"; };
+		412355892303FE91005D2E48 /* CommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
+		4123558A2303FEDF005D2E48 /* soundRecorder.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = soundRecorder.pch; sourceTree = "<group>"; };
+		4123558B23040B2E005D2E48 /* ZYVoiceHud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYVoiceHud.h; sourceTree = "<group>"; };
+		4123558C23040B2E005D2E48 /* ZYVoiceHud.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYVoiceHud.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4123555A2303E04F005D2E48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		412355542303E04F005D2E48 = {
+			isa = PBXGroup;
+			children = (
+				4123555F2303E04F005D2E48 /* soundRecorder */,
+				4123555E2303E04F005D2E48 /* Products */,
+				7B0085F55A8A2A9C2C3F3135 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4123555E2303E04F005D2E48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4123555D2303E04F005D2E48 /* soundRecorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4123555F2303E04F005D2E48 /* soundRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				412355762303E178005D2E48 /* Class */,
+				4123558F23043368005D2E48 /* Resources */,
+			);
+			path = soundRecorder;
+			sourceTree = "<group>";
+		};
+		412355762303E178005D2E48 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				41235590230433C9005D2E48 /* Controller */,
+				412355882303FE67005D2E48 /* Macro */,
+				412355772303E4BA005D2E48 /* View */,
+				412355782303E4BA005D2E48 /* Tool */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		412355772303E4BA005D2E48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4123557C2303E4F1005D2E48 /* ZYRecordBoxView.h */,
+				4123557D2303E4F1005D2E48 /* ZYRecordBoxView.m */,
+				4123558B23040B2E005D2E48 /* ZYVoiceHud.h */,
+				4123558C23040B2E005D2E48 /* ZYVoiceHud.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		412355782303E4BA005D2E48 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				4123557F2303E715005D2E48 /* ZYRecordManager.h */,
+				412355802303E715005D2E48 /* ZYRecordManager.m */,
+				412355822303E75A005D2E48 /* ZYPlayManager.h */,
+				412355832303E75A005D2E48 /* ZYPlayManager.m */,
+				412355852303EF2F005D2E48 /* ZYFileTool.h */,
+				412355862303EF2F005D2E48 /* ZYFileTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		412355882303FE67005D2E48 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				412355892303FE91005D2E48 /* CommonMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		4123558F23043368005D2E48 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				412355692303E050005D2E48 /* Assets.xcassets */,
+				412355602303E04F005D2E48 /* AppDelegate.h */,
+				412355612303E04F005D2E48 /* AppDelegate.m */,
+				412355662303E04F005D2E48 /* Main.storyboard */,
+				4123556B2303E050005D2E48 /* LaunchScreen.storyboard */,
+				4123556E2303E050005D2E48 /* Info.plist */,
+				4123556F2303E050005D2E48 /* main.m */,
+				4123558A2303FEDF005D2E48 /* soundRecorder.pch */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		41235590230433C9005D2E48 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				412355632303E04F005D2E48 /* ViewController.h */,
+				412355642303E04F005D2E48 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7B0085F55A8A2A9C2C3F3135 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4123555C2303E04F005D2E48 /* soundRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 412355732303E050005D2E48 /* Build configuration list for PBXNativeTarget "soundRecorder" */;
+			buildPhases = (
+				412355592303E04F005D2E48 /* Sources */,
+				4123555A2303E04F005D2E48 /* Frameworks */,
+				4123555B2303E04F005D2E48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = soundRecorder;
+			productName = soundRecorder;
+			productReference = 4123555D2303E04F005D2E48 /* soundRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		412355552303E04F005D2E48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZY;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "张杨";
+				TargetAttributes = {
+					4123555C2303E04F005D2E48 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 412355582303E04F005D2E48 /* Build configuration list for PBXProject "soundRecorder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 412355542303E04F005D2E48;
+			productRefGroup = 4123555E2303E04F005D2E48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4123555C2303E04F005D2E48 /* soundRecorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4123555B2303E04F005D2E48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4123556D2303E050005D2E48 /* LaunchScreen.storyboard in Resources */,
+				4123556A2303E050005D2E48 /* Assets.xcassets in Resources */,
+				412355682303E04F005D2E48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		412355592303E04F005D2E48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412355842303E75A005D2E48 /* ZYPlayManager.m in Sources */,
+				4123558D23040B2E005D2E48 /* ZYVoiceHud.m in Sources */,
+				412355652303E04F005D2E48 /* ViewController.m in Sources */,
+				412355812303E715005D2E48 /* ZYRecordManager.m in Sources */,
+				4123557E2303E4F1005D2E48 /* ZYRecordBoxView.m in Sources */,
+				412355872303EF2F005D2E48 /* ZYFileTool.m in Sources */,
+				412355702303E050005D2E48 /* main.m in Sources */,
+				412355622303E04F005D2E48 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		412355662303E04F005D2E48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				412355672303E04F005D2E48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4123556B2303E050005D2E48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4123556C2303E050005D2E48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		412355712303E050005D2E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		412355722303E050005D2E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		412355742303E050005D2E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X56MEA8K79;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/soundRecorder/Resources/soundRecorder.pch";
+				INFOPLIST_FILE = soundRecorder/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zy.soundRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		412355752303E050005D2E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X56MEA8K79;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/soundRecorder/Resources/soundRecorder.pch";
+				INFOPLIST_FILE = soundRecorder/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zy.soundRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		412355582303E04F005D2E48 /* Build configuration list for PBXProject "soundRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412355712303E050005D2E48 /* Debug */,
+				412355722303E050005D2E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		412355732303E050005D2E48 /* Build configuration list for PBXNativeTarget "soundRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412355742303E050005D2E48 /* Debug */,
+				412355752303E050005D2E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 412355552303E04F005D2E48 /* Project object */;
+}
